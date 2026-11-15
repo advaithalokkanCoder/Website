@@ -3,88 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website Language Composition</title>
+    <title>BricksNBots</title>
     <meta
       name="description"
-      content="Interactive dashboard built from the repository language composition data and supporting visual assets."
+      content="BricksNBots is a colorful collection of playful IoT and robotics projects inspired by the warehouse of project images and the IoT workbook data."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="page-shell">
       <header class="topbar">
-        <div class="brand-wrap">
-          <img
-            class="brand-avatar"
-            src="https://avatars.githubusercontent.com/u/279293666?v=4"
-            alt="Repository owner avatar"
-          />
+        <div class="brand">
+          <div class="brand-mark">B</div>
           <div>
-            <p class="eyebrow">Repository Overview</p>
-            <h1>advaithalokkanCoder / Website</h1>
+            <p class="brand-kicker">PLAYFUL TECH LAB</p>
+            <h1>BricksNBots</h1>
           </div>
         </div>
-        <a class="repo-link" href="https://github.com/advaithalokkanCoder/Website" target="_blank" rel="noreferrer">
-          Open GitHub Repo
-        </a>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#about">About</a>
+        </nav>
       </header>
 
       <main>
         <section class="hero">
           <div class="hero-copy">
-            <span class="badge">Live dashboard</span>
-            <h2>Language composition and website insights</h2>
+            <span class="eyebrow">IoT & robotics gallery</span>
+            <h2>Small builds. Big imagination.</h2>
             <p>
-              This page transforms the repository language data into a polished summary view,
-              pairing the project breakdown with visual assets so the website feels complete,
-              informative, and ready to extend.
+              BricksNBots turns inventive maker ideas into a bright, playful showcase of Arduino,
+              sensors, LEDs, motors, and toy-sized automation projects inspired by the IoT workbook.
             </p>
-            <div class="stat-row" id="summary-stats"></div>
+
+            <div class="cta-row">
+              <a class="primary-btn" href="#projects">Explore builds</a>
+              <a class="secondary-btn" href="#about">Meet the maker</a>
+            </div>
+
+            <div class="stats" id="stats"></div>
           </div>
 
-          <div class="hero-visual">
-            <div class="chart-panel">
-              <div class="ring-wrap">
-                <div class="donut" id="donut-chart" aria-label="Language composition chart"></div>
-                <div class="donut-center">
-                  <strong id="total-percentage">100%</strong>
-                  <span>coverage</span>
-                </div>
+          <div class="hero-art">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="bot-card">
+              <div class="bot-face">
+                <span class="eye left"></span>
+                <span class="eye right"></span>
+                <span class="smile"></span>
+              </div>
+              <div class="bot-panel">
+                <span>LED</span>
+                <span>Motor</span>
+                <span>Sensor</span>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="content-grid">
-          <div class="panel">
-            <div class="panel-header">
-              <h3>Language breakdown</h3>
-              <span>by share</span>
-            </div>
-            <div id="language-list" class="language-list"></div>
+        <section class="highlights" id="highlights">
+          <div class="feature-card">
+            <div class="mini-icon">🤖</div>
+            <h3>Maker magic</h3>
+            <p>From game controllers to automation helpers, each project blends creativity and coding.</p>
           </div>
-
-          <div class="panel">
-            <div class="panel-header">
-              <h3>Highlights</h3>
-              <span>project focus</span>
-            </div>
-            <div class="highlight-list" id="highlights"></div>
+          <div class="feature-card">
+            <div class="mini-icon">⚡</div>
+            <h3>Sensor-driven</h3>
+            <p>Light, sound, motion, and timing systems bring the builds to life.</p>
+          </div>
+          <div class="feature-card">
+            <div class="mini-icon">🧩</div>
+            <h3>Brick-powered fun</h3>
+            <p>LEGO, toy mechanics, and modular gadgets make every idea feel playful.</p>
           </div>
         </section>
 
-        <section class="gallery-section">
+        <section class="projects-section" id="projects">
           <div class="section-heading">
-            <p class="eyebrow">Visual assets</p>
-            <h3>Website mockups and marketing graphics</h3>
+            <div>
+              <p class="section-kicker">Project collection</p>
+              <h3>Builds from the BricksNBots Lab</h3>
+            </div>
+            <span class="count-pill"><span id="project-count">0</span> creations</span>
           </div>
-          <div class="gallery-grid" id="gallery-grid"></div>
+          <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="about" id="about">
+          <div class="about-card">
+            <p class="section-kicker">Creator note</p>
+            <h3>Designed with the IoT workbook in mind</h3>
+            <p>
+              The BricksNBots website draws from the project workbook metadata and the image archive in
+              this repository, turning a collection of clever electronics experiments into a fun showcase.
+            </p>
+            <div class="author-row">
+              <span class="author-badge">Author</span>
+              <strong id="author-name">Anila Narayanan</strong>
+            </div>
+          </div>
         </section>
       </main>
     </div>
