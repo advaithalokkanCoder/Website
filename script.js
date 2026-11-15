@@ -3,7 +3,7 @@ const projects = [
     title: 'DIY Maze Game with Joystick Control',
     tag: 'Game Lab',
     description: 'A playful maze challenge where a joystick drives the action and every move matters.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/DIY%20Maze%20Game%20with%20Joystick%20Control.png',
+    image: 'DIY Maze Game with Joystick Control.png',
     accent: '#ff9d43',
     tags: ['Arduino', 'Game', 'Joystick']
   },
@@ -11,7 +11,7 @@ const projects = [
     title: 'DIY Joystick-Controlled Canon',
     tag: 'Build Challenge',
     description: 'A bright little cannon build that turns motion control into a fun mechanical demo.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/DIY%20Joystick-Controlled%20Canon.png',
+    image: 'DIY Joystick-Controlled Canon.png',
     accent: '#5ec8ff',
     tags: ['Motor', 'Control', 'Maker']
   },
@@ -19,7 +19,7 @@ const projects = [
     title: 'Auto Rain Shelter',
     tag: 'Smart Home',
     description: 'A clever shelter system designed to react to changing weather and protect the setup.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/Auto%20Rain%20Shelter.png',
+    image: 'Auto Rain Shelter.png',
     accent: '#72d59c',
     tags: ['Automation', 'Weather', 'Smart']
   },
@@ -27,7 +27,7 @@ const projects = [
     title: 'DIY Automatic Tap with Countdown',
     tag: 'Automation',
     description: 'Hands-free tap logic with a timer that adds a very practical twist to a smart build.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/DIY%20Automatic%20Tap%20with%20Countdown.png',
+    image: 'DIY Automatic Tap with Countdown.png',
     accent: '#8d7dff',
     tags: ['Sensor', 'Timer', 'Smart']
   },
@@ -35,7 +35,7 @@ const projects = [
     title: 'DIY Distracted Driver Alert System',
     tag: 'Safety',
     description: 'A safety-focused concept that uses alerts to keep attention on the road.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/DIY%20Distracted%20Driver%20Alert%20System.png',
+    image: 'DIY Distracted Driver Alert System.png',
     accent: '#ff5a4f',
     tags: ['Alert', 'Safety', 'IoT']
   },
@@ -43,7 +43,7 @@ const projects = [
     title: 'Dancing LED with Sound Sensor',
     tag: 'Light Show',
     description: 'Colorful LED motion driven by sound input, turning a simple sensor into a party effect.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/Dancing%20LED%20with%20Sound%20Sensor.png',
+    image: 'Dancing LED with Sound Sensor.png',
     accent: '#ffd857',
     tags: ['LED', 'Audio', 'Glow']
   },
@@ -51,7 +51,7 @@ const projects = [
     title: 'LEGO Gate with Stepper Motor',
     tag: 'Mechanical Fun',
     description: 'A toy gate mechanism that opens and closes with the rhythm of a stepper motor.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/LEGO%20Gate%20with%20Stepper%20Motor.png',
+    image: 'LEGO Gate with Stepper Motor.png',
     accent: '#72d59c',
     tags: ['LEGO', 'Stepper', 'Motion']
   },
@@ -59,7 +59,7 @@ const projects = [
     title: 'RGB LED On/Off with Delay',
     tag: 'Color Logic',
     description: 'A punchy RGB project that experiments with timing, switching, and color cycles.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/RGB%20LED%20OnOff%20with%20Delay.png',
+    image: 'RGB LED OnOff with Delay.png',
     accent: '#ff5a4f',
     tags: ['RGB', 'LED', 'Timing']
   },
@@ -67,7 +67,7 @@ const projects = [
     title: 'TM1637 4-Digit Counter',
     tag: 'Display Tech',
     description: 'A compact counting display with a satisfying digital readout and tidy display logic.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/TM1637%204-Digit%20Counter.png',
+    image: 'TM1637 4-Digit Counter.png',
     accent: '#5ec8ff',
     tags: ['Display', 'Counter', 'Digital']
   },
@@ -75,7 +75,7 @@ const projects = [
     title: 'Traffic Light Simulator',
     tag: 'Signals',
     description: 'A mini traffic-light simulation that mimics the rhythm of city flow and timing.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/Traffic%20Light%20Simulator.png',
+    image: 'Traffic Light Simulator.png',
     accent: '#ffd857',
     tags: ['Simulation', 'LED', 'City']
   },
@@ -83,7 +83,7 @@ const projects = [
     title: 'Ultrasonic Gate for Toy Vehicles',
     tag: 'Smart Gate',
     description: 'A toy vehicle gate that reacts to proximity and creates a magical automatic barrier.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/Ultrasonic%20Gate%20for%20Toy%20Vehicles.png',
+    image: 'Ultrasonic Gate for Toy Vehicles.png',
     accent: '#8d7dff',
     tags: ['Ultrasonic', 'Gate', 'Auto']
   },
@@ -91,7 +91,7 @@ const projects = [
     title: 'DIY Lego + Arduino Speed Detector',
     tag: 'Motion Lab',
     description: 'A clever speed-tracking build interested in movement, timing, and smart measurements.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/DIY%20Lego%20%2B%20Arduino%20Speed%20Detector.png',
+    image: 'DIY Lego + Arduino Speed Detector.png',
     accent: '#72d59c',
     tags: ['LEGO', 'Arduino', 'Speed']
   },
@@ -99,7 +99,7 @@ const projects = [
     title: '16x2 LCD Name Scroller',
     tag: 'Display',
     description: 'A scrolling text display that makes names and messages feel animated and alive.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/16x2%20LCD%20Name%20Scroller.png',
+    image: '16x2 LCD Name Scroller.png',
     accent: '#ff9d43',
     tags: ['LCD', 'Text', 'Display']
   },
@@ -107,7 +107,7 @@ const projects = [
     title: '8x8 WS2812B RGB LED Matrix Theater Chase Rainbow',
     tag: 'Visual FX',
     description: 'A dazzling LED matrix animation that makes color chase through the board in rainbow flow.',
-    image: 'https://raw.githubusercontent.com/advaithalokkanCoder/Website/main/8x8%20WS2812B%20RGB%20LED%20Matrix%20Theater%20Chase%20Rainbow.png',
+    image: '8x8 WS2812B RGB LED Matrix Theater Chase Rainbow.png',
     accent: '#ff5a4f',
     tags: ['RGB', 'Matrix', 'Animation']
   }
@@ -134,9 +134,9 @@ statsWrap.innerHTML = stats
 const projectGrid = document.getElementById('project-grid');
 projectGrid.innerHTML = projects
   .map(
-    (project) => `
-      <article class="project-card">
-        <img class="project-image" src="${project.image}" alt="${project.title}" />
+    (project, index) => `
+      <article class="project-card reveal-card" style="transition-delay:${index * 75}ms;">
+        <img class="project-image" src="${encodeURI(project.image)}" alt="${project.title}" loading="lazy" />
         <div class="project-copy">
           <span class="project-tag" style="color:${project.accent}; border-color:${project.accent}44; background:${project.accent}12;">${project.tag}</span>
           <h4>${project.title}</h4>
@@ -152,3 +152,18 @@ projectGrid.innerHTML = projects
 
 document.getElementById('project-count').textContent = projects.length;
 document.getElementById('author-name').textContent = 'Anila Narayanan';
+
+const revealItems = document.querySelectorAll('.reveal, .feature-card, .project-card, .about-card');
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  },
+  { threshold: 0.12 }
+);
+
+revealItems.forEach((item) => observer.observe(item));
