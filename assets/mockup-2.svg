@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Analytics card</title>
+  <desc id="desc">A stats panel card with a chart and summary metrics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="90" y="70" width="620" height="460" rx="26" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(148,163,184,0.35)"/>
+  <text x="120" y="122" font-family="Arial, sans-serif" font-size="30" fill="#e2e8f0" font-weight="700">Repository metrics</text>
+  <rect x="120" y="150" width="150" height="90" rx="18" fill="#0f172a" stroke="rgba(125,211,252,0.25)"/>
+  <rect x="300" y="150" width="150" height="90" rx="18" fill="#0f172a" stroke="rgba(125,211,252,0.25)"/>
+  <rect x="480" y="150" width="150" height="90" rx="18" fill="#0f172a" stroke="rgba(125,211,252,0.25)"/>
+  <text x="150" y="195" font-family="Arial, sans-serif" font-size="42" fill="#7dd3fc" font-weight="700">3</text>
+  <text x="332" y="195" font-family="Arial, sans-serif" font-size="42" fill="#93c5fd" font-weight="700">42%</text>
+  <text x="516" y="195" font-family="Arial, sans-serif" font-size="42" fill="#fcd34d" font-weight="700">Ready</text>
+  <text x="120" y="260" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1">Languages</text>
+  <text x="300" y="260" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1">HTML</text>
+  <text x="480" y="260" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1">Status</text>
+  <rect x="120" y="310" width="530" height="160" rx="18" fill="#0b1220"/>
+  <path d="M160 430 L250 390 L330 350 L410 395 L470 325 L545 295 L600 250" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 430 L250 390 L330 350 L410 395 L470 325 L545 295 L600 250" fill="none" stroke="rgba(96,165,250,0.25)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#e2e8f0" font-family="Arial, sans-serif">
+    <text x="160" y="495" font-size="15">Jan</text>
+    <text x="250" y="495" font-size="15">Feb</text>
+    <text x="330" y="495" font-size="15">Mar</text>
+    <text x="410" y="495" font-size="15">Apr</text>
+    <text x="470" y="495" font-size="15">May</text>
+    <text x="545" y="495" font-size="15">Jun</text>
+  </g>
+</svg>

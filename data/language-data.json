@@ -1,0 +1,47 @@
+{
+  "repoName": "advaithalokkanCoder / Website",
+  "summary": [
+    { "label": "Languages", "value": "3", "detail": "primary stacks" },
+    { "label": "Images", "value": "3", "detail": "mockup assets" },
+    { "label": "Status", "value": "Ready", "detail": "for deployment" }
+  ],
+  "languages": [
+    { "name": "HTML", "value": 42, "color": "#e34c26" },
+    { "name": "CSS", "value": 36, "color": "#264de4" },
+    { "name": "JavaScript", "value": 22, "color": "#f7df1e" }
+  ],
+  "details": [
+    {
+      "icon": "✦",
+      "title": "Structured content",
+      "text": "The site presents repository data in a clean, digestible format using clear stacks and visual summaries."
+    },
+    {
+      "icon": "▣",
+      "title": "Responsive layout",
+      "text": "Cards, charts, and gallery views adapt smoothly across desktop and mobile layouts for consistent presentation."
+    },
+    {
+      "icon": "◎",
+      "title": "Visual storytelling",
+      "text": "A custom color-coded language chart and mockup gallery tie the data back to a more polished website aesthetic."
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Landing page concept",
+      "text": "Feature hero section built to highlight repository information and key language metrics.",
+      "src": "assets/mockup-1.svg"
+    },
+    {
+      "title": "Analytics card",
+      "text": "A support panel for summarizing project composition and release-readiness details.",
+      "src": "assets/mockup-2.svg"
+    },
+    {
+      "title": "Brand highlight",
+      "text": "A polished visual block that can be used to showcase the project identity and content story.",
+      "src": "assets/mockup-3.svg"
+    }
+  ]
+}
